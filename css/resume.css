@@ -1,0 +1,122 @@
+body{
+    background-color: #F6E7D8;
+    font-family: 'Nunito', sans-serif;
+}
+#resume{
+    margin: 5px auto;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+}
+@media (max-width: 500px){
+    #resume{
+        width: 100%;
+    }
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+}
+#heading{
+    margin-bottom: -10px;
+    font-family: 'Gulzar', serif;
+    color: rgb(75, 75, 204);
+    font-size: 4em;
+}
+#address{
+    border-top: 2px solid rgb(60, 60, 60);
+    border-bottom: 2px solid rgb(60, 60, 60);
+}
+#work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#title{
+    width: 100%;
+    text-align: start;
+    color: rgb(75, 75, 204);
+    font-family: 'Gulzar', serif;
+    font-size: 1.3em;
+    margin-bottom: -5px;
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#span{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#skill span{
+    background-color: rgb(187, 187, 187);
+    margin: 3px 5px;
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+#certification{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#course{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#por{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+}
+#volunteer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: justify;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+.title{
+    width: 100%;
+    text-align: start;
+    color: rgb(75, 75, 204);
+    font-family: 'Gulzar', serif;
+    font-size: 1.3em;
+    margin-bottom: -15px;
+}
